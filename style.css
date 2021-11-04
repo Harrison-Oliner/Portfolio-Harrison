@@ -159,7 +159,6 @@ section h2 {
 
 .footer {
   padding: 30px;
-  clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
@@ -172,58 +171,47 @@ section h2 {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 1024px) {
-  section {
-    display: block;
-    /* overflow: hidden; */
-    padding: 10px;
-    border-radius: 15px;
-    /* border: 3px solid; */
-    gap: 10px;
-    width: 80%;
-    height: 250px;
-    margin: 25px auto;
-    flex-direction: column;
-  }
-}
-@media only screen and (max-width: 1050px) {
-  ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: auto;
-    /* overflow: hidden; */
-    padding: 10px;
-    border-radius: 15px;
-    /* border: 3px solid; */
-    gap: 10px;
-    width: 80%;
-    height: 250px;
-    margin: 25px auto;
-  }
-}
 @media only screen and (max-width: 1067px) {
   .hero {
-    /* display: block; */
-    /* overflow: hidden; */
     padding: 10px;
     border-radius: 15px;
-    /* border: 3px solid; */
     gap: 10px;
     width: 80%;
     height: 75px;
     margin: auto;
     flex-direction: block;
-  }
-}
-
-@media only screen and (max-width: 1050px) {
+  };
+  nav {
+    margin: 0 auto;
+  };
   nav li {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-  }
-}
+  };
+
+  section {
+    display: block;
+    padding: 10px;
+    border-radius: 15px;
+    gap: 10px;
+    width: 80%;
+    height: 250px;
+    margin: 25px auto;
+    flex-direction: column;
+  };
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 15px;
+    gap: 10px;
+    width: 100%;
+    height: 250px;
+    margin: 25px auto;
+  };
+};
 
 /* [1] The container */
 .res {
@@ -233,6 +221,8 @@ section h2 {
 
 /* [2] Transition property for smooth transformation of images */
 .res img {
+  position: relative;
+  z-index: 9;
   transition: transform 0.5s ease;
 }
 
