@@ -4,69 +4,82 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/particle.css" />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
+    <script type="text/javascript" src="./assets/JS/jquery.particleground.js"></script>
   </head>
 
   <body>
+
+    
     <header>
       <h1>Harrison Oliner Portfolio</h1>
+      <br>
+      <div class='links'>
+        <div>
+          <a href="mailto: harrison.j.oliner@gmail.com"
+            ><img src="assets/images/Gmail-Logo.wine.png" alt="" style="max-width: 15%; height: 15%;"
+          /></a>
+        </div>
+        <div>
+          <a href="https://github.com/Harrison-Oliner" target="_blank"
+            ><img src="assets/images/github.png" alt="" style="max-width: 15%; height: 15%;"
+          /></a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/harrison-oliner-8280b01ab/" target="_blank"
+            ><img src="assets/images/linkedin.png" alt="" style="max-width: 10%; height: 10%;"
+          /></a>
+        </div>
+        <div>
+          <a href="https://harrison-oliner.github.io/Portfolio-Harrison/" target="_blank"
+            ><img src="assets/images/pokeball_PNG.png" alt="" style="max-width: 10%; height: 10%;"
+          /></a>
+        </div>
       <nav>
         <ul>
-          <li>
-            <a href="#About-Me">About Me</a>
+          <li class="level-item has-text-centered">
+            <a class="link is-info" href="About Me.html" style="font-size: 150%"
+              >About Me</a>
           </li>
-          <li>
-            <a href="#My-Projects">My Projects</a>
-          </li>
-          <li>
-            <a href="#Resume">Resume</a>
-          </li>
-          <li>
-            <a href="#Contact-Me">Contact Me</a>
-          </li>
+          <li class="level-item has-text-centered">
+            <a class="link is-info" href="Projects.html" style="font-size: 150%"
+              >Projects</a>
+              </li>
+              <li class="level-item has-text-centered">
+                <a class="link is-info" href="Resume.html" style="font-size: 150%"
+                  >Resume</a>
+                  </li>
         </ul>
       </nav>
     </header>
-    <div class="hero"></div>
-    <section>
-      <div id="About-Me" class="information">
-        <img src="./Profile-Pic.jpg" class="float-left" />
-        <h2>About Me</h2>
-        <p>
-          Job Experience<br />
-          Ridgetop Capital Partners, Pittsburgh, PA – Associate March 2020 to
-          Current Large Private Mineral Owner across<br />
-          PA, WV, OH.
-        </p>
-      </div>
-      <div id="My-Projects" class="information">
-        <img src="./Refactored-Horiseon.jpg" class="float-left" />
-        <h2>My Projects</h2>
-        <p>
-          <a
-            href="https://harrison-oliner.github.io/Refactor-Harrison/#social-media-marketing"
-            >Refactoring Horiseon</a
-          >
-        </p>
-        <p>More Coming soon</p>
-      </div>
-      <div id="Resume" class="resume">
-        <div class="res" style="text-align: center">
-          <img src="./Resume_Harrison_Oliner_2021_page-0001.jpg" />
-          <h2>Resume</h2>
+    <body>
+
+    <div id="particles">
+      <div class='contactlogo'>
+        <div id="email">
+          <a href="mailto: harrison.j.oliner@gmail.com"
+            ><img src="assets/images/Gmail-Logo.wine.png" alt="" style="max-width: 15%; height: 15%;"
+          /></a>
         </div>
-      </div>
-    </section>
-  </body>
-  <div class="footer">
-    <div id="Contact-Me" class="contact">
-      <p>
-        Email:
-        <a href="mailto: harrison.j.oliner@gmail.com"
-          >harrison.j.oliner@gmail.com</a
-        >
-      </p>
-      <br />
-      <p>Phone: 973-634-0642</p>
+        <div id="github">
+          <a href="https://github.com/Harrison-Oliner" target="_blank"
+            ><img src="assets/images/github.png" alt="" style="max-width: 15%; height: 15%;"
+          /></a>
+        </div>
+        <div id="linkedin">
+          <a href="https://www.linkedin.com/in/harrison-oliner-8280b01ab/" target="_blank"
+            ><img src="assets/images/linkedin.png" alt="" style="max-width: 10%; height: 10%;"
+          /></a>
+        </div>
+        <div id="portfolio">
+          <a href="https://harrison-oliner.github.io/Portfolio-Harrison/" target="_blank"
+            ><img src="assets/images/pokeball_PNG.png" alt="" style="max-width: 10%; height: 10%;"
+          /></a>
+        </div>
     </div>
-  </div>
+  </body>
 </html>

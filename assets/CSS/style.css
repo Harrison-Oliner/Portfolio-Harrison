@@ -9,14 +9,14 @@
 }
 
 body {
-  background-color: #be8762;
+  background-color: White;
 }
 
 header {
   padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  font-family: "Trebuchet MS", "Lucida San Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #1a4732;
+  background-color: #44926e;
   color: #ffffff;
 }
 
@@ -45,6 +45,12 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-left: 25px;
+}
+
+.links{
+  display: inline-block;
+  margin-left: 25px;
+  width: 30%;
 }
 
 a {
@@ -96,7 +102,7 @@ aside {
   width: 20%;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #1a4732;
+  background-color: #39805f;
   margin-bottom: 32px;
   color: #ffffff;
 }
@@ -117,10 +123,11 @@ aside img {
   margin-bottom: 30px;
   padding: 25px;
   height: 250px;
+  width: 70%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #1a4732;
+  background-color: #3e8b67;
   color: #ffffff;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 0px 0px 15px 0px;
 }
 
 .contact {
@@ -132,7 +139,7 @@ aside img {
   padding: 25px;
   /* height: 150px; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #1a4732;
+  background-color: #43946e;
   color: #ffffff;
   border-radius: 15px 15px 15px 15px;
 }
@@ -141,11 +148,24 @@ aside img {
   margin-bottom: 20px;
   padding: 25px;
   height: 300px;
+  width: 70%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #1a4732;
+  background-color: #3d976d;
   color: #ffffff;
-  border-radius: 15px 15px 15px 15px;
+  /* border-radius: 15px 15px 15px 15px; */
 }
+
+.me{
+  position: relative;
+  margin-bottom: 30px;
+  padding: 25px;
+  height: 250px;
+  width: 70%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #3e8b67;
+  color: #ffffff;
+}
+
 
 /* Turned the online-reputation-management, social media marketing, and search engin optimization designations into section deesignation */
 section img {
@@ -213,20 +233,20 @@ section h2 {
   };
 };
 
-/* [1] The container */
+/* [1] The container
 .res {
   height: 600px; /* [1.1] Set it as per your need */
   /* overflow: hidden; [1.2] Hide the overflowing of child elements */
-}
+/* } */
 
 /* [2] Transition property for smooth transformation of images */
-.res img {
+/* .res img {
   position: relative;
   z-index: 9;
   transition: transform 0.5s ease;
-}
+} */
 
 /* [3] Finally, transforming the image when container gets hovered */
-.res:hover img {
+/* .res:hover img {
   transform: scale(5);
-}
+} */
